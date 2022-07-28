@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{e157ca7e-6dc5-ec11-a7b6-000d3a8dba7d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="bookableresourcecharacteristicid">
+          <cell name="resource" width="188" />
+          <cell name="characteristic" width="180" />
+          <cell name="name" width="35" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="bookableresourcecharacteristic">
+          <attribute name="name" />
+          <attribute name="bookableresourcecharacteristicid" />
+          <filter type="and">
+            <condition attribute="msdyn_approvalstatus" operator="eq" value="192350003" />
+          </filter>
+          <link-entity name="characteristic" alias="aa" link-type="inner" from="characteristicid" to="characteristic">
+            <filter type="and">
+              <condition attribute="characteristictype" operator="eq" value="123000001" />
+            </filter>
+          </link-entity>
+          <attribute name="resource" />
+          <attribute name="characteristic" />
+          <order attribute="resource" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Resources by State License" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A list of Bookable Resources with an approved State License Characteristic." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

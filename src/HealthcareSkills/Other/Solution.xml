@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.22034.154" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>HealthcareSkills</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Healthcare Skills" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>HealthcareAcceleration</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Healthcare Acceleration" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>hsa</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>12300</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="bookableresource" behavior="2" />
+      <RootComponent type="1" schemaName="bookableresourcecharacteristic" behavior="2" />
+      <RootComponent type="1" schemaName="characteristic" behavior="2" />
+      <RootComponent type="9" schemaName="bookableresourcecharacteristictype" behavior="0" />
+      <RootComponent type="62" schemaName="hsa_HealthcareSkillsAdmin" behavior="0" />
+      <RootComponent type="80" schemaName="hsa_HealthcareSkillsAdmin" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="1" schemaName="bookableresource" displayName="Bookable Resource" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="62" schemaName="hsa_HealthcareSkillsAdmin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="80" schemaName="hsa_HealthcareSkillsAdmin" displayName="Healthcare Skills Admin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresourcecategoryassn" displayName="Bookable Resource Category Assn" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresourcecharacteristic" displayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="1" schemaName="bookableresourcecharacteristic" displayName="Bookable Resource Characteristic" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresourcecharacteristic" displayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by Specialty" displayName="Resources by Specialty" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{b0598099-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresourcecharacteristic" displayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by State License" displayName="Resources by State License" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{e157ca7e-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresourcecharacteristic" displayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresourcecharacteristic" displayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="62" schemaName="hsa_HealthcareSkillsAdmin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bookableresourcecharacteristic" displayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="80" schemaName="hsa_HealthcareSkillsAdmin" displayName="Healthcare Skills Admin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="characteristic" displayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="1" schemaName="characteristic" displayName="Characteristic" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="characteristic" displayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="State Licenses" displayName="State Licenses" parentSchemaName="characteristic" parentDisplayName="Characteristic" id="{71bccecc-6cc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="characteristic" displayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Specialties" displayName="Specialties" parentSchemaName="characteristic" parentDisplayName="Characteristic" id="{af65d8fa-6cc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="characteristic" displayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by Specialty" displayName="Resources by Specialty" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{b0598099-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="characteristic" displayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by State License" displayName="Resources by State License" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{e157ca7e-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="characteristic" displayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="62" schemaName="hsa_HealthcareSkillsAdmin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="characteristic" displayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="80" schemaName="hsa_HealthcareSkillsAdmin" displayName="Healthcare Skills Admin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_bookableresource_msdyn_bookableresourceassociation_Resource1" displayName="msdyn_bookableresource_msdyn_bookableresourceassociation_Resource1" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_bookableresource_msdyn_bookableresourceassociation_Resource2" displayName="msdyn_bookableresource_msdyn_bookableresourceassociation_Resource2" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_bookableresource_msdyn_resourceterritory_Resource" displayName="msdyn_bookableresource_msdyn_resourceterritory_Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" displayName="msdyn_bookableresource_msdyn_timeoffrequest_Resource" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="FieldService (8.8.0.88)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_equipment_bookableresource_FacilityEquipmentId" displayName="msdyn_equipment_bookableresource_FacilityEquipmentId" parentSchemaName="equipment" parentDisplayName="Facility/Equipment" solution="msdynce_CoreServiceScheduling (9.0.21084.1003)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_msdyn_organizationalunit_bookableresource_organizationalunit" displayName="msdyn_msdyn_organizationalunit_bookableresource_organizationalunit" parentSchemaName="msdyn_organizationalunit" parentDisplayName="Organizational Unit" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="accountid" displayName="Account" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="calendarid" displayName="Calendar" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="contactid" displayName="Contact" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_derivecapacity" displayName="Derive Capacity From Group Members" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_displayonscheduleassistant" displayName="Enable for Availability Search" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_displayonscheduleboard" displayName="Display On Schedule Board" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_enableappointments" displayName="Include Appointments" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling3_CumulativePatch (3.12.51.1)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_endlocation" displayName="End Location" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_facilityequipmentid" displayName="Facility Equipment" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_CoreServiceScheduling (9.0.21084.1003)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_generictype" displayName="Generic Type (Deprecated)" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_organizationalunit" displayName="Organizational Unit" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_pooltype" displayName="Pool Type" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_primaryemail" displayName="Primary Email" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_startlocation" displayName="Start Location" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Name" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="resourcetype" displayName="Resource Type" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="timezone" displayName="Time Zone" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="userid" displayName="User" parentSchemaName="bookableresource" parentDisplayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="bookableresourcecharacteristicid" displayName="Bookable Resource Characteristic" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by Specialty" displayName="Resources by Specialty" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{b0598099-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="bookableresourcecharacteristicid" displayName="Bookable Resource Characteristic" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by State License" displayName="Resources by State License" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{e157ca7e-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="characteristic" displayName="Characteristic" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by Specialty" displayName="Resources by Specialty" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{b0598099-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="characteristic" displayName="Characteristic" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by State License" displayName="Resources by State License" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{e157ca7e-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_approvalstatus" displayName="Approval status" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" solution="ProjectService (3.10.0.31)" />
+        <Dependent type="2" schemaName="msdyn_approvalstatus" displayName="Approval status" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Name" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by Specialty" displayName="Resources by Specialty" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{b0598099-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Name" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by State License" displayName="Resources by State License" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{e157ca7e-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="resource" displayName="Resource" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by Specialty" displayName="Resources by Specialty" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{b0598099-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="resource" displayName="Resource" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by State License" displayName="Resources by State License" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{e157ca7e-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="characteristicid" displayName="Characteristic" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="State Licenses" displayName="State Licenses" parentSchemaName="characteristic" parentDisplayName="Characteristic" id="{71bccecc-6cc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="characteristicid" displayName="Characteristic" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Specialties" displayName="Specialties" parentSchemaName="characteristic" parentDisplayName="Characteristic" id="{af65d8fa-6cc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="characteristicid" displayName="Characteristic" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by Specialty" displayName="Resources by Specialty" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{b0598099-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="characteristicid" displayName="Characteristic" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by State License" displayName="Resources by State License" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{e157ca7e-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="characteristictype" displayName="Characteristic Type" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="2" schemaName="characteristictype" displayName="Characteristic Type" parentSchemaName="characteristic" parentDisplayName="Characteristic" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="characteristictype" displayName="Characteristic Type" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="State Licenses" displayName="State Licenses" parentSchemaName="characteristic" parentDisplayName="Characteristic" id="{71bccecc-6cc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="characteristictype" displayName="Characteristic Type" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Specialties" displayName="Specialties" parentSchemaName="characteristic" parentDisplayName="Characteristic" id="{af65d8fa-6cc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="characteristictype" displayName="Characteristic Type" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by Specialty" displayName="Resources by Specialty" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{b0598099-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="characteristictype" displayName="Characteristic Type" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Resources by State License" displayName="Resources by State License" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" id="{e157ca7e-6dc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="description" displayName="Description" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="State Licenses" displayName="State Licenses" parentSchemaName="characteristic" parentDisplayName="Characteristic" id="{71bccecc-6cc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="description" displayName="Description" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Specialties" displayName="Specialties" parentSchemaName="characteristic" parentDisplayName="Characteristic" id="{af65d8fa-6cc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Name" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="State Licenses" displayName="State Licenses" parentSchemaName="characteristic" parentDisplayName="Characteristic" id="{71bccecc-6cc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Name" parentSchemaName="characteristic" parentDisplayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="26" schemaName="Specialties" displayName="Specialties" parentSchemaName="characteristic" parentDisplayName="Characteristic" id="{af65d8fa-6cc5-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Resource Associated Categories" displayName="Resource Associated Categories" parentSchemaName="bookableresourcecategoryassn" parentDisplayName="Bookable Resource Category Assn" solution="msdynce_Scheduling (9.0.0.0)" id="{207a3738-fb9d-e511-80e7-00155db9c10d}" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Resource Category Assns" displayName="Active Resource Category Assns" parentSchemaName="bookableresourcecategoryassn" parentDisplayName="Bookable Resource Category Assn" solution="msdynce_Scheduling (9.0.0.0)" id="{533d1548-1e86-49cb-8c06-bff8ca02591d}" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Bookable Resource Characteristics" displayName="Active Bookable Resource Characteristics" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" id="{7e7fe0be-277f-4f14-9484-261412680ab4}" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Resource Characteristics" displayName="Resource Characteristics" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" solution="msdynce_Scheduling (9.0.0.0)" id="{ae9e5ee4-02a9-e511-80e8-00155db9c10d}" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/BookableResource/FS.BookableResource.Library.js" displayName="msdyn_/BookableResource/FS.BookableResource.Library.js" solution="FieldService (8.8.0.88)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/CoreServiceScheduling/BookableResource/BookableResource_CoreServiceScheduling.js" displayName="msdyn_/CoreServiceScheduling/BookableResource/BookableResource_CoreServiceScheduling.js" solution="msdynce_CoreServiceScheduling (9.0.21084.1003)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/fps/BookableResource/BookableResource.Library.js" displayName="msdyn_/fps/BookableResource/BookableResource.Library.js" solution="MicrosoftDynamicsScheduling (3.12.0.448)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="hsa_HealthcareSkillsAdmin" displayName="Healthcare Skills Admin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Scheduling/BookableResource/BookableResource_main_system_library.js" displayName="Scheduling/BookableResource/BookableResource_main_system_library.js" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.ModelForm.ModelFormControl" displayName="MscrmControls.ModelForm.ModelFormControl" solution="BaseCustomControlsCore (9.0.2203.4012)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.WorkHourControl.WorkHourControl" displayName="MscrmControls.WorkHourControl.WorkHourControl" solution="msdyn_UCICalendar (1.0.0.1844)" />
+        <Dependent type="60" displayName="Bookable Resource main form" parentDisplayName="Bookable Resource" id="{95c507bc-7bc6-ec11-a7b6-000d3a8dba7d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="bookableresourcecharacteristictype" displayName="Bookable Resource Characteristic Type" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent type="9" schemaName="bookableresourcecharacteristictype" displayName="Bookable Resource Characteristic Type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msdyn_approvalstate" displayName="Entity Approval State" solution="ProjectService (3.10.0.31)" />
+        <Dependent type="2" schemaName="msdyn_approvalstatus" displayName="Approval status" parentSchemaName="bookableresourcecharacteristic" parentDisplayName="Bookable Resource Characteristic" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

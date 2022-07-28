@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="bookableresourcecharacteristictype" localizedName="Bookable Resource Characteristic Type" description="Type of the characteristic, e.g. skill, certification." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>8.1.0.0</IntroducedVersion>
+  <displaynames>
+    <displayname description="Bookable Resource Characteristic Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Type of the characteristic, e.g. skill, certification." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="1">
+      <labels>
+        <label description="Skill" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="2">
+      <labels>
+        <label description="Certification" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="123000000">
+      <labels>
+        <label description="Specialty" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="123000001">
+      <labels>
+        <label description="State License" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>
