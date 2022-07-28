@@ -1,0 +1,62 @@
+﻿Name,Characteristic Type,Description
+AA,Certification,Associate of Arts - based on FHIR valueset definition for HL7 v2 table 360
+AAS,Certification,Associate of Applied Science - based on FHIR valueset definition for HL7 v2 table 360
+ABA,Certification,Associate of Business Administration - based on FHIR valueset definition for HL7 v2 table 360
+AE,Certification,Associate of Engineering - based on FHIR valueset definition for HL7 v2 table 360
+AS,Certification,Associate of Science - based on FHIR valueset definition for HL7 v2 table 360
+BA,Certification,Bachelor of Arts - based on FHIR valueset definition for HL7 v2 table 360
+BBA,Certification,Bachelor of Business Administration - based on FHIR valueset definition for HL7 v2 table 360
+BE,Certification,Bachelor or Engineering - based on FHIR valueset definition for HL7 v2 table 360
+BFA,Certification,Bachelor of Fine Arts - based on FHIR valueset definition for HL7 v2 table 360
+BN,Certification,Bachelor of Nursing - based on FHIR valueset definition for HL7 v2 table 360
+BS,Certification,Bachelor of Science - based on FHIR valueset definition for HL7 v2 table 360
+BSL,Certification,Bachelor of Science - Law - based on FHIR valueset definition for HL7 v2 table 360
+BSN,Certification,Bachelor on Science - Nursing - based on FHIR valueset definition for HL7 v2 table 360
+BT,Certification,Bachelor of Theology - based on FHIR valueset definition for HL7 v2 table 360
+CANP,Certification,Certified Adult Nurse Practitioner - based on FHIR valueset definition for HL7 v2 table 360
+CER,Certification,Certificate - based on FHIR valueset definition for HL7 v2 table 360
+CMA,Certification,Certified Medical Assistant - based on FHIR valueset definition for HL7 v2 table 360
+CNM,Certification,Certified Nurse Midwife - based on FHIR valueset definition for HL7 v2 table 360
+CNP,Certification,Certified Nurse Practitioner - based on FHIR valueset definition for HL7 v2 table 360
+CNS,Certification,Certified Nurse Specialist - based on FHIR valueset definition for HL7 v2 table 360
+CPNP,Certification,Certified Pediatric Nurse Practitioner - based on FHIR valueset definition for HL7 v2 table 360
+CRN,Certification,Certified Registered Nurse - based on FHIR valueset definition for HL7 v2 table 360
+CTR,Certification,Certified Tumor Registrar - based on FHIR valueset definition for HL7 v2 table 360
+DBA,Certification,Doctor of Business Administration - based on FHIR valueset definition for HL7 v2 table 360
+DED,Certification,Doctor of Education - based on FHIR valueset definition for HL7 v2 table 360
+DIP,Certification,Diploma - based on FHIR valueset definition for HL7 v2 table 360
+DO,Certification,Doctor of Osteopathy - based on FHIR valueset definition for HL7 v2 table 360
+EMT,Certification,Emergency Medical Technician - based on FHIR valueset definition for HL7 v2 table 360
+EMTP,Certification,Emergency Medical Technician - Paramedic - based on FHIR valueset definition for HL7 v2 table 360
+FPNP,Certification,Family Practice Nurse Practitioner - based on FHIR valueset definition for HL7 v2 table 360
+HS,Certification,High School Graduate - based on FHIR valueset definition for HL7 v2 table 360
+JD,Certification,Juris Doctor - based on FHIR valueset definition for HL7 v2 table 360
+MA,Certification,Master of Arts - based on FHIR valueset definition for HL7 v2 table 360
+MBA,Certification,Master of Business Administration - based on FHIR valueset definition for HL7 v2 table 360
+MCE,Certification,Master of Civil Engineering - based on FHIR valueset definition for HL7 v2 table 360
+MD,Certification,Doctor of Medicine - based on FHIR valueset definition for HL7 v2 table 360
+MDA,Certification,Medical Assistant - based on FHIR valueset definition for HL7 v2 table 360
+MDI,Certification,Master of Divinity - based on FHIR valueset definition for HL7 v2 table 360
+ME,Certification,Master of Engineering - based on FHIR valueset definition for HL7 v2 table 360
+MED,Certification,Master of Education - based on FHIR valueset definition for HL7 v2 table 360
+MEE,Certification,Master of Electrical Engineering - based on FHIR valueset definition for HL7 v2 table 360
+MFA,Certification,Master of Fine Arts - based on FHIR valueset definition for HL7 v2 table 360
+MME,Certification,Master of Mechanical Engineering - based on FHIR valueset definition for HL7 v2 table 360
+MS,Certification,Master of Science - based on FHIR valueset definition for HL7 v2 table 360
+MSL,Certification,Master of Science - Law - based on FHIR valueset definition for HL7 v2 table 360
+MSN,Certification,Master of Science - Nursing - based on FHIR valueset definition for HL7 v2 table 360
+MT,Certification,Medical Technician - based on FHIR valueset definition for HL7 v2 table 360
+MTH,Certification,Master of Theology - based on FHIR valueset definition for HL7 v2 table 360
+NG,Certification,Non-Graduate - based on FHIR valueset definition for HL7 v2 table 360
+NP,Certification,Nurse Practitioner - based on FHIR valueset definition for HL7 v2 table 360
+PA,Certification,Physician Assistant - based on FHIR valueset definition for HL7 v2 table 360
+PHD,Certification,Doctor of Philosophy - based on FHIR valueset definition for HL7 v2 table 360
+PHE,Certification,Doctor of Engineering - based on FHIR valueset definition for HL7 v2 table 360
+PHS,Certification,Doctor of Science - based on FHIR valueset definition for HL7 v2 table 360
+PN,Certification,Advanced Practice Nurse - based on FHIR valueset definition for HL7 v2 table 360
+PharmD,Certification,Doctor of Pharmacy - based on FHIR valueset definition for HL7 v2 table 360
+RMA,Certification,Registered Medical Assistant - based on FHIR valueset definition for HL7 v2 table 360
+RN,Certification,Registered Nurse - based on FHIR valueset definition for HL7 v2 table 360
+RPH,Certification,Registered Pharmacist - based on FHIR valueset definition for HL7 v2 table 360
+SEC,Certification,Secretarial Certificate - based on FHIR valueset definition for HL7 v2 table 360
+TS,Certification,Trade School Graduate - based on FHIR valueset definition for HL7 v2 table 360
