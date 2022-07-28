@@ -2,7 +2,7 @@
 
 Extending Dataverse bookable resource characteristics table as a foundation for configuring common healthcare use cases with low-code.
 
-![Sample screenshot of discharge planning board and mobile app](./images/HealthcareSkillsDemo.png)
+![Sample screenshot of skills management app and mobile concept.](./images/HealthcareSkillsDemo.png)
 
 ## Features
 
@@ -92,16 +92,3 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
-
-## Characteristics
-
-Configured **bookableresourcecharacteristictype** choice field to include *Specialty* and *State License* in the option set when adding Characteristics.
-
-### Degree/license/certificate
-
-
-
-
-
-### Specialties
-
