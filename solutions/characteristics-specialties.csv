@@ -1,0 +1,118 @@
+﻿Name,Characteristic Type,Description
+Adult mental illness,Specialty,snomed code 408467006 . Based on FHIR practice codes valueset
+Anesthetics,Specialty,snomed code 394577000 . Based on FHIR practice codes valueset
+Audiological medicine,Specialty,snomed code 394578005 . Based on FHIR practice codes valueset
+Blood banking and transfusion medicine,Specialty,snomed code 421661004 . Based on FHIR practice codes valueset
+Burns care,Specialty,snomed code 408462000 . Based on FHIR practice codes valueset
+Cardiology,Specialty,snomed code 394579002 . Based on FHIR practice codes valueset
+Clinical cytogenetics and molecular genetics,Specialty,snomed code 394804000 . Based on FHIR practice codes valueset
+Clinical genetics,Specialty,snomed code 394580004 . Based on FHIR practice codes valueset
+Clinical hematology,Specialty,snomed code 394803006 . Based on FHIR practice codes valueset
+Clinical immunology,Specialty,snomed code 408480009 . Based on FHIR practice codes valueset
+Clinical microbiology,Specialty,snomed code 408454008 . Based on FHIR practice codes valueset
+Clinical neuro-physiology,Specialty,snomed code 394809005 . Based on FHIR practice codes valueset
+Clinical oncology,Specialty,snomed code 394592004 . Based on FHIR practice codes valueset
+Clinical pharmacology,Specialty,snomed code 394600006 . Based on FHIR practice codes valueset
+Clinical physiology,Specialty,snomed code 394601005 . Based on FHIR practice codes valueset
+Community medicine,Specialty,snomed code 394581000 . Based on FHIR practice codes valueset
+Critical care medicine,Specialty,snomed code 408478003 . Based on FHIR practice codes valueset
+Dental medicine specialties,Specialty,snomed code 394812008 . Based on FHIR practice codes valueset
+Dental-General dental practice,Specialty,snomed code 408444009 . Based on FHIR practice codes valueset
+Dermatology,Specialty,snomed code 394582007 . Based on FHIR practice codes valueset
+Diabetic medicine,Specialty,snomed code 408475000 . Based on FHIR practice codes valueset
+Dive medicine,Specialty,snomed code 410005002 . Based on FHIR practice codes valueset
+Endocrinology,Specialty,snomed code 394583002 . Based on FHIR practice codes valueset
+Family practice,Specialty,snomed code 419772000 . Based on FHIR practice codes valueset
+Gastroenterology,Specialty,snomed code 394584008 . Based on FHIR practice codes valueset
+General medical practice,Specialty,snomed code 408443003 . Based on FHIR practice codes valueset
+General medicine,Specialty,snomed code 394802001 . Based on FHIR practice codes valueset
+General pathology,Specialty,snomed code 394915009 . Based on FHIR practice codes valueset
+General practice,Specialty,snomed code 394814009 . Based on FHIR practice codes valueset
+Genito-urinary medicine,Specialty,snomed code 394808002 . Based on FHIR practice codes valueset
+Geriatric medicine,Specialty,snomed code 394811001 . Based on FHIR practice codes valueset
+Gynecological oncology,Specialty,snomed code 408446006 . Based on FHIR practice codes valueset
+Gynecology,Specialty,snomed code 394586005 . Based on FHIR practice codes valueset
+Hematopathology,Specialty,snomed code 394916005 . Based on FHIR practice codes valueset
+Hepatology,Specialty,snomed code 408472002 . Based on FHIR practice codes valueset
+Histopathology,Specialty,snomed code 394597005 . Based on FHIR practice codes valueset
+Immunopathology,Specialty,snomed code 394598000 . Based on FHIR practice codes valueset
+Infectious diseases,Specialty,snomed code 394807007 . Based on FHIR practice codes valueset
+Internal medicine,Specialty,snomed code 419192003 . Based on FHIR practice codes valueset
+Learning disability,Specialty,snomed code 408468001 . Based on FHIR practice codes valueset
+Medical oncology,Specialty,snomed code 394593009 . Based on FHIR practice codes valueset
+Medical ophthalmology,Specialty,snomed code 394813003 . Based on FHIR practice codes valueset
+Military medicine,Specialty,snomed code 410001006 . Based on FHIR practice codes valueset
+Nephrology,Specialty,snomed code 394589003 . Based on FHIR practice codes valueset
+Neurology,Specialty,snomed code 394591006 . Based on FHIR practice codes valueset
+Neuropathology,Specialty,snomed code 394599008 . Based on FHIR practice codes valueset
+Nuclear medicine,Specialty,snomed code 394649004 . Based on FHIR practice codes valueset
+Obstetrics,Specialty,snomed code 408470005 . Based on FHIR practice codes valueset
+Obstetrics and gynecology,Specialty,snomed code 394585009 . Based on FHIR practice codes valueset
+Occupational medicine,Specialty,snomed code 394821009 . Based on FHIR practice codes valueset
+Ophthalmic surgery,Specialty,snomed code 422191005 . Based on FHIR practice codes valueset
+Ophthalmology,Specialty,snomed code 394594003 . Based on FHIR practice codes valueset
+Osteopathic manipulative medicine,Specialty,snomed code 416304004 . Based on FHIR practice codes valueset
+Otolaryngology,Specialty,snomed code 418960008 . Based on FHIR practice codes valueset
+Pain management,Specialty,snomed code 394882004 . Based on FHIR practice codes valueset
+Palliative medicine,Specialty,snomed code 394806003 . Based on FHIR practice codes valueset
+Pediatric (Child and adolescent) psychiatry,Specialty,snomed code 394588006 . Based on FHIR practice codes valueset
+Pediatric cardiology,Specialty,snomed code 408459003 . Based on FHIR practice codes valueset
+Pediatric dentistry,Specialty,snomed code 394607009 . Based on FHIR practice codes valueset
+Pediatric endocrinology,Specialty,snomed code 419610006 . Based on FHIR practice codes valueset
+Pediatric gastroenterology,Specialty,snomed code 418058008 . Based on FHIR practice codes valueset
+Pediatric genetics,Specialty,snomed code 420208008 . Based on FHIR practice codes valueset
+Pediatric hematology,Specialty,snomed code 418652005 . Based on FHIR practice codes valueset
+Pediatric immunology,Specialty,snomed code 418535003 . Based on FHIR practice codes valueset
+Pediatric infectious diseases,Specialty,snomed code 418862001 . Based on FHIR practice codes valueset
+Pediatric nephrology,Specialty,snomed code 419365004 . Based on FHIR practice codes valueset
+Pediatric oncology,Specialty,snomed code 418002000 . Based on FHIR practice codes valueset
+Pediatric ophthalmology,Specialty,snomed code 419983000 . Based on FHIR practice codes valueset
+Pediatric pulmonology,Specialty,snomed code 419170002 . Based on FHIR practice codes valueset
+Pediatric rheumatology,Specialty,snomed code 419472004 . Based on FHIR practice codes valueset
+Pediatric surgery,Specialty,snomed code 394539006 . Based on FHIR practice codes valueset
+Pediatric surgery-bone marrow transplantation,Specialty,snomed code 420112009 . Based on FHIR practice codes valueset
+Preventive medicine,Specialty,snomed code 409968004 . Based on FHIR practice codes valueset
+Psychiatry,Specialty,snomed code 394587001 . Based on FHIR practice codes valueset
+Psychotherapy,Specialty,snomed code 394913002 . Based on FHIR practice codes valueset
+Public health medicine,Specialty,snomed code 408440000 . Based on FHIR practice codes valueset
+Pulmonary medicine,Specialty,snomed code 418112009 . Based on FHIR practice codes valueset
+Radiation oncology,Specialty,snomed code 419815003 . Based on FHIR practice codes valueset
+Radiology,Specialty,snomed code 394914008 . Based on FHIR practice codes valueset
+Radiology-Interventional radiology,Specialty,snomed code 408455009 . Based on FHIR practice codes valueset
+Rehabilitation,Specialty,snomed code 394602003 . Based on FHIR practice codes valueset
+Respite care,Specialty,snomed code 408447002 . Based on FHIR practice codes valueset
+Rheumatology,Specialty,snomed code 394810000 . Based on FHIR practice codes valueset
+Sleep studies,Specialty,snomed code 408450004 . Based on FHIR practice codes valueset
+Surgery-Bone and marrow transplantation,Specialty,snomed code 408476004 . Based on FHIR practice codes valueset
+Surgery-Breast surgery,Specialty,snomed code 408469009 . Based on FHIR practice codes valueset
+Surgery-Cardiac surgery,Specialty,snomed code 408466002 . Based on FHIR practice codes valueset
+Surgery-Cardiothoracic transplantation,Specialty,snomed code 408471009 . Based on FHIR practice codes valueset
+Surgery-Colorectal surgery,Specialty,snomed code 408464004 . Based on FHIR practice codes valueset
+Surgery-Dental-Endodontics,Specialty,snomed code 408441001 . Based on FHIR practice codes valueset
+Surgery-Dental-Oral and maxillofacial surgery,Specialty,snomed code 408465003 . Based on FHIR practice codes valueset
+Surgery-Dental-Oral surgery,Specialty,snomed code 394605001 . Based on FHIR practice codes valueset
+Surgery-Dental-Orthodontics,Specialty,snomed code 394608004 . Based on FHIR practice codes valueset
+Surgery-Dental-Periodontal surgery,Specialty,snomed code 408461007 . Based on FHIR practice codes valueset
+Surgery-Dental-Prosthetic dentistry (Prosthodontics),Specialty,snomed code 408460008 . Based on FHIR practice codes valueset
+Surgery-Dental-surgical-Prosthodontics,Specialty,snomed code 408460008 . Based on FHIR practice codes valueset
+Surgery-Dentistry-Restorative dentistry,Specialty,snomed code 394606000 . Based on FHIR practice codes valueset
+Surgery-Dentistry--surgical,Specialty,snomed code 408449004 . Based on FHIR practice codes valueset
+Surgery-Dentistry-surgical-Orthodontics,Specialty,snomed code 394608004 . Based on FHIR practice codes valueset
+Surgery-Dermatologic surgery,Specialty,snomed code 418018006 . Based on FHIR practice codes valueset
+"Surgery-Ear, nose and throat surgery",Specialty,snomed code 394604002 . Based on FHIR practice codes valueset
+Surgery-general,Specialty,snomed code 394609007 . Based on FHIR practice codes valueset
+Surgery-Hepatobiliary and pancreatic surgery,Specialty,snomed code 408474001 . Based on FHIR practice codes valueset
+Surgery-Neurosurgery,Specialty,snomed code 394610002 . Based on FHIR practice codes valueset
+Surgery-Plastic surgery,Specialty,snomed code 394611003 . Based on FHIR practice codes valueset
+Surgery-Transplantation surgery,Specialty,snomed code 408477008 . Based on FHIR practice codes valueset
+Surgery-Trauma and orthopedics,Specialty,snomed code 394801008 . Based on FHIR practice codes valueset
+Surgery-Vascular,Specialty,snomed code 408463005 . Based on FHIR practice codes valueset
+Surgical oncology,Specialty,snomed code 419321007 . Based on FHIR practice codes valueset
+Surgical-Accident & emergency,Specialty,snomed code 394576009 . Based on FHIR practice codes valueset
+Thoracic medicine,Specialty,snomed code 394590007 . Based on FHIR practice codes valueset
+Toxicology,Specialty,snomed code 409967009 . Based on FHIR practice codes valueset
+Tropical medicine,Specialty,snomed code 408448007 . Based on FHIR practice codes valueset
+Urological oncology,Specialty,snomed code 419043006 . Based on FHIR practice codes valueset
+Urology,Specialty,snomed code 394612005 . Based on FHIR practice codes valueset
+Medical specialty--OTHER--NOT LISTED,Specialty,snomed code 394733009 . Based on FHIR practice codes valueset
+Surgical specialty--OTHER-NOT LISTED,Specialty,snomed code 394732004 . Based on FHIR practice codes valueset
